@@ -1,0 +1,22 @@
+/* 
+  (1) Top-down, left-right: last thing is orange.
+
+  (2) orange ruleset is specifically an ID, so everything else is blue.
+*/
+
+p {
+  color: blue;
+  text-decoration: underline;
+}
+
+p {
+  color: orange;
+}
+
+#p2 {
+  color: pink;
+}
+
+#p2 {
+  color: yellow;
+}
