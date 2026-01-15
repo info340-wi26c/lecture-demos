@@ -1,0 +1,21 @@
+/* A rule with many properties */
+#top-header {
+  font-family: 'Helvetica';
+  color: red;
+  background-color: #333; /*dark gray*/
+}
+
+.sub-header {
+  color: blue;
+  background-color: lightblue;
+}
+
+#green-section {
+  color: green;
+}
+
+/*
+#... -> elements with ID of  ...
+.    -> elements with CLASS of    
+
+*/

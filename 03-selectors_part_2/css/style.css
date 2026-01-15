@@ -1,0 +1,3 @@
+.column:nth-child(2n + 2) > div {
+  color: blue;
+}
