@@ -1,5 +1,6 @@
 /* A rule with many properties */
 #top-header {
+  padding: 10px;
   font-family: 'Helvetica';
   color: red;
   background-color: #333; /*dark gray*/
@@ -14,8 +15,18 @@
   color: green;
 }
 
+#p {
+  font-size: larger;
+}
+
+.information {
+  padding: 20px;
+}
+
 /*
 #... -> elements with ID of  ...
+  - IDs can only be unique -- only one per file
 .    -> elements with CLASS of    
+  - Classes can have any number of elements per file
 
 */
