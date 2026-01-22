@@ -1,19 +1,12 @@
 #box {
-  display: flex;
-  height: 500px;
-  justify-content: space-around;
-  flex-wrap: wrap;
+
 }
 
-#one {
-}
 
-#two {
-}
 
-#three {
-}
 
+
+/* General styling, not flex related */
 #box > div:nth-child(2n) {
   background-color: rgb(71, 71, 71);
   color: white;
