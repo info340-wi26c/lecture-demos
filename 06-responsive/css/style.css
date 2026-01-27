@@ -1,0 +1,50 @@
+body {
+  display: flex;
+}
+
+@media (min-width: 240px) {
+  body {
+    background-color: pink;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 690px) {
+  body {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: green;
+  }
+
+  .card-box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  nav li {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+.topics-section .card {
+  border: 1px solid black;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.topics-section img {
+  max-width: 150px;
+}
