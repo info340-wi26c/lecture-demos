@@ -1,21 +1,35 @@
 #box {
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column-reverse;
+  height: 1500px;
 }
 
-
-
-
-
-/* General styling, not flex related */
-#box > div:nth-child(2n) {
-  background-color: rgb(71, 71, 71);
-  color: white;
+/* #one {
+  flex-grow: 1;
 }
 
+#two {
+  flex-grow: 2;
+} */
+
+/* These are my Flex Items */
 #box > div {
+  /* Flex Properties */
+  /* flex-grow: 0; /* this is the default */
+
+  /* General styling */
   text-align: center;
   padding-top: 16px;
   border: 2px solid black;
   width: 100px;
-  height: 50px;
+  height: 100px;
+  box-sizing: border-box;
+}
+
+/* General styling, not flex related */
+#box > div:nth-child(2n) {
+  background-color: rgb(98, 98, 98);
+  color: white;
 }

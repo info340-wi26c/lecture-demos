@@ -1,0 +1,10 @@
+
+.topics-section .card {
+  border: 1px solid black;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.topics-section img {
+  max-width: 150px;
+}
