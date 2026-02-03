@@ -1,0 +1,14 @@
+.container {
+  padding: 20px;
+  background-color: lightgray;
+  display: inline-block;
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: cornflowerblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
