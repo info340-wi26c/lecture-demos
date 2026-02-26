@@ -1,0 +1,70 @@
+:root {
+  --bg: #f7f7f8;
+  --card: #fff;
+  --accent: #0066ff;
+}
+
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background: var(--bg);
+  margin: 0;
+  padding: 20px;
+}
+
+.app {
+  max-width: 640px;
+  margin: 0 auto;
+  background: var(--card);
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.chat-window {
+  height: 300px;
+  overflow: auto;
+  border: 1px solid #eee;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.message {
+  padding: 6px 8px;
+  margin-bottom: 6px;
+  border-radius: 6px;
+  background: #f1f4ff;
+}
+
+.message-input {
+  display: flex;
+  gap: 8px;
+}
+
+.message-input input {
+  flex: 1;
+  margin-top: 6px;
+  padding: 8px 10px;
+  width: 100%;
+}
+
+.delete-btn {
+  float: right;
+  top: 2px;
+  left: 0px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 700;
+  color: #c00;
+  font-size: 1rem;
+  line-height: 1;
+  padding: 0;
+}
+
+.edit-btn {
+  border: none;
+  background: transparent;
+  padding-right: 4px;
+  font-size: 0.75rem;
+  color: rgb(127, 127, 127);
+}

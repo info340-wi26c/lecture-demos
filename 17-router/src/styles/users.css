@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  max-width: 480px;
+  background: #fff;
+}
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.name {
+  margin: 0;
+  font-size: 18pt;
+  font-weight: 600px;
+}
+
+
+.meta {
+  margin: 4px 0;
+  color: #555;
+  font-size: 13pt;
+}
+
+.bio {
+  margin-top: 8;
+  color: #333;
+  font-size: 13pt;
+}
