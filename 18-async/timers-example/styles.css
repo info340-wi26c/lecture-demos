@@ -1,0 +1,23 @@
+.img-cross {
+  position: relative;
+}
+
+img {
+  width: 200px;
+  object-fit: contain;
+  margin: 20px;
+  position: absolute;
+  left: 0;
+}
+
+img.small {
+  width: 50px;
+}
+
+.img-cross > img:first-child {
+  opacity: 1;
+}
+
+.img-cross  > img:nth-child(2) {
+  opacity: 0;
+}
